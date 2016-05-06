@@ -5,3 +5,9 @@ body{
 h1, h2{
 	font-weight: 400;
 }
+.muted{
+	color: #777;
+}
+.p-20{
+	padding: 20px;
+}
