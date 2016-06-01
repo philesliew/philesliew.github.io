@@ -1,27 +1,29 @@
 (function () {
-  var bv = new Bideo();
-  bv.init({
-    // Video element
-    videoEl: document.querySelector('#background_video'),
+  if(! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ){
+    var bv = new Bideo();
+    bv.init({
+      // Video element
+      videoEl: document.querySelector('#background_video'),
 
-    // Container element
-    container: document.querySelector('body'),
+      // Container element
+      container: document.querySelector('body'),
 
-    // Resize
-    resize: true,
+      // Resize
+      resize: true,
 
-    // Array of objects containing the src and type
-    // of different video formats to add
-    src: [
-      {
-        src: 'resources/video.mp4',
-        type: 'video/mp4'
+      // Array of objects containing the src and type
+      // of different video formats to add
+      src: [
+        {
+          src: 'resources/video.mp4',
+          type: 'video/mp4'
+        }
+      ],
+
+      // What to do once video loads (initial frame)
+      onLoad: function () {
+        document.querySelector('#video_cover').style.display = 'none';
       }
-    ],
-
-    // What to do once video loads (initial frame)
-    onLoad: function () {
-      document.querySelector('#video_cover').style.display = 'none';
-    }
-  });
+    });
+  }
 }());
