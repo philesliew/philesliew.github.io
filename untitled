@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Philes Liew</title>
+	<meta name='description' content='Philes Liew'/>
+	<meta name='keywords' content='philes liew, software engineer, developer, talent, singapore, it'/>	
+	<link rel="stylesheet" href="css/octicons/octicons.css">
+	<link rel='stylesheet' href='css/animate.css'>
+	<link rel='stylesheet' href='css/main.css'>
+	<link rel='stylesheet' href=' https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<center>
+	<div class="p-20">
+		<h1>Hi, my name is Philes Liew</h1>
+		<p class="muted">Specialized in web and mobile technology</p>
+		<span class="tada animated octicon octicon-thumbsup" style="font-size:64px;"></span>
+		<p>
+		welcome to contact me at <a href="mailto:philesliew@gmail.com" style="color:black;"></span> philesliew@gmail.com</a>
+		</p>
+	</div>
+  </center>
+</body>
+</html>
