@@ -71,3 +71,7 @@ body {
   display: inline-block;
   margin-right: 15px;
 }
+#links a.cta{
+  border: 2px solid rgba(255,255,255,0.50);
+  font-weight: 500;
+}
